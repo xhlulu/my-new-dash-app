@@ -8,6 +8,7 @@ import numpy as np
 import plotly.graph_objs as go
 from dash.dependencies import Input, Output, State
 
+
 app = dash.Dash(__name__)
 server = app.server
 
