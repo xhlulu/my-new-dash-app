@@ -5,7 +5,6 @@ dash-core-components==0.22.1
 numpy==1.14.3
 pandas==0.20.3
 plotly==2.5.1
-scikit-learn==0.19.1
 flask==1.0.1
 flask_cors
 gunicorn==19.8.1
