@@ -15,7 +15,7 @@ server = app.server
 # Custom Script for Heroku
 if 'DYNO' in os.environ:
     app.scripts.append_script({
-        'external_url': 'https://cdn.rawgit.com/chriddyp/ca0d8f02a1659981a0ea7f013a378bbd/raw/e79f3f789517deec58f41251f7dbb6bee72c44ab/plotly_ga.js'
+        'external_url': 'https://codepen.io/plotly/pen/BGyZNa.js'
     })
 
 
@@ -47,7 +47,7 @@ external_css = [
     "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css",  # Normalize the CSS
     "https://fonts.googleapis.com/css?family=Open+Sans|Roboto"  # Fonts
     "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
-    "https://cdn.rawgit.com/xhlulu/0acba79000a3fd1e6f552ed82edb8a64/raw/dash_template.css"  # For production
+    "https://codepen.io/plotly/pen/pQvwjN.css"  # Dash template for production
 ]
 
 for css in external_css:
